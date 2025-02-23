@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.herosection{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+nav{
+
+    height: 20%;
+    display: flex;
+}
+nav h1{
+    text-transform: uppercase;
+
+}
+.content{
+
+    height: 90%;
+    display: flex;
+}
+.picture{
+    order: 2;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+
+}
+.picture img{
+    width:50% ;
+    height: 90%;
+    margin-bottom: 40%;
+     
+}
+.textcontent{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+.textcontent h1{
+    font-size: 60px;
+}
+.textcontent p{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.seperator{
+    background-color: grey;
+    height: 3px;
+    width: 100%;
+
+}
+body{
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    padding: 40px 20px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px 10%;
+    text-align: center;
+    margin: 20px;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    
+}
+.file{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.skills span{
+    font-size: 50px;
+    font-weight: bold;
+}
+    
+
+.projects{
+    padding: 60px 10%;
+    text-align: center;
+}
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    gap: 25px;
+}
+.project{
+
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+.project img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-section{
+    background-color: #181818;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80x 10%;
+    gap: 50px;
+}
+.contact-content{
+    max-width: 500px;
+}
+.contact-content{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.contact-content p{
+    font-size: 16px;
+    color: #ccccccae;
+
+}
+.contact-form{
+    flex-grow: 1;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+label{
+    font-size: 12px;
+    color: #888888e7;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+input,textarea{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: white ;
+    padding: 10px 0;
+    font-size: 16px;
+    width: 100%;
+}
+textarea{
+    height: 100px;
+    resize: none;
+}
+button{
+    align-self: flex-start;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 0;
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+}
+button::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #4CAF50;
+    margin-top: 5px;
+    text-align: center;
+    
+}
+footer{
+    background-color: #111;
+    color: white;
+    padding: 40px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #444;
+}
+.logo{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.social-link{
+    display: flex;
+    gap: 15px;
+}
+.social-links a{
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+.social-link a:hover{
+    color: #4CAF50;
+}
